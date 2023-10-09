@@ -1,0 +1,68 @@
+.slider_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .slider_section .img-box img {
+    width: 100%;
+  }
+  
+  .slider_section .detail-box h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #1a2e35;
+  }
+  
+  .slider_section .detail-box h1 span {
+    color: #ff4f5a;
+  }
+  
+  .slider_section .slider_nav-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .slider_section .slider_nav-box .custom_carousel-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .slider_section .carousel-control-prev,
+  .slider_section .carousel-control-next {
+    position: unset;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+  }
+  
+  /* Update image paths here */
+  .slider_section .carousel-control-prev {
+    left: 2%;
+    background-image: url('/Assets/left-arrow-black.png'); /* Adjust the path */
+  }
+  
+  .slider_section .carousel-control-prev:hover {
+    background-image: url('/Assets/left-arrow.png'); /* Adjust the path */
+  }
+  
+  .slider_section .carousel-control-next {
+    right: 2%;
+    background-image: url('/Assets/right-arrow-black.png'); /* Adjust the path */
+  }
+  
+  .slider_section .carousel-control-next:hover {
+    background-image: url('/Assets/right-arrow.png'); /* Adjust the path */
+  }
+  
