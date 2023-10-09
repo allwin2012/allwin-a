@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroBanner.css';
-import './src/Assets/slider-img.jpg'
+import sliderImg from '../../Assets/slider-img.jpg';
 import leftArrowBlack from '../../Assets/left-arrow-black.png'; // Adjust the path
 import leftArrow from '../../Assets/left-arrow.png'; // Adjust the path
 
@@ -18,7 +18,7 @@ function HeroBanner() {
                   <div className="col-md-6">
                     <div className="img-box">
                       <div>
-                        <img src="src/Assets/slider-img.jpg" alt="" className="" />
+                        <img src={sliderImg} alt="" className="" />
                       </div>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ function HeroBanner() {
                   <div className="col-md-6">
                     <div className="img-box">
                       <div>
-                        <img src="src/Assets/slider-img.jpg" alt="" className="" />
+                        <img src={sliderImg} alt="" className="" />
                       </div>
                     </div>
                   </div>

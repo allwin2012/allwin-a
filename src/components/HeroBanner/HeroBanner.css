@@ -50,19 +50,19 @@
   /* Update image paths here */
   .slider_section .carousel-control-prev {
     left: 2%;
-    background-image: url('/Assets/left-arrow-black.png'); /* Adjust the path */
+    background-image: url('../../Assets/slider-img.jpg'); /* Adjust the path */
   }
   
   .slider_section .carousel-control-prev:hover {
-    background-image: url('/Assets/left-arrow.png'); /* Adjust the path */
+    background-image: url('../../Assets/left-arrow.png'); /* Adjust the path */
   }
   
   .slider_section .carousel-control-next {
     right: 2%;
-    background-image: url('/Assets/right-arrow-black.png'); /* Adjust the path */
+    background-image: url('../../Assets/right-arrow-black.png'); /* Adjust the path */
   }
   
   .slider_section .carousel-control-next:hover {
-    background-image: url('/Assets/right-arrow.png'); /* Adjust the path */
+    background-image: url('../../Assets/right-arrow.png'); /* Adjust the path */
   }
   
